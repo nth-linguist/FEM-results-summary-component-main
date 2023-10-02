@@ -1,0 +1,107 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  /* Primary */
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --lightRed: hsl(0, 100%, 67%);
+  --orangeyYellow: hsl(39, 100%, 56%);
+  --greenTeal: hsl(166, 100%, 37%);
+  --cobaltBlue: hsl(234, 85%, 45%);
+  /* Gradients */
+  --lightSlateBlue: hsl(252, 100%, 67%);
+  --lightRoyalBlue: hsl(241, 81%, 54%);
+  --violetBlue: hsla(256, 72%, 46%, 1);
+  --persianBlue: hsla(241, 72%, 46%, 0);
+  /* Neutrals */
+  --white: hsl(0, 0%, 100%);
+  --paleBlue: hsl(221, 100%, 96%);
+  --lightLavender: hsl(241, 100%, 89%);
+  --darkGrayBlue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-size: 18px;
+  font-family: Hanken Grotesk;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+#Reaction {
+  color: var(--lightRed);
+}
+#Memory {
+  color: var(--orangeyYellow);
+}
+#Verbal {
+  color: var(--greenTeal);
+}
+#Visual {
+  color: var(--cobaltBlue);
+}
+.catScore {
+  font-weight: 500;
+  color: hwb(0 50% 50%);
+}
+.catScore span {
+  font-weight: bold;
+  color: black;
+}
+
+img.icon {
+}
+
+div#resultSection {
+  background: rgb(46, 43, 233);
+  background: linear-gradient(
+    0deg,
+    rgba(46, 43, 233, 1) 0%,
+    rgba(120, 87, 255, 1) 100%
+  );
+}
+div#summarySection {
+}
+
+.button:hover {
+  background: rgb(46, 43, 233);
+  background: linear-gradient(
+    0deg,
+    rgba(46, 43, 233, 1) 0%,
+    rgba(120, 87, 255, 1) 100%
+  );
+}
+
+#circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgb(36, 33, 202);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 33, 202, 1) 0%,
+    rgba(78, 33, 202, 1) 100%
+  );
+  border: 10px #ffffff;
+}
+
+.card {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
