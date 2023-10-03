@@ -99,8 +99,14 @@ div#summarySection {
   border: 10px #ffffff;
 }
 
-.card {
-  width: 400px;
+#card {
+  width: 600px;
+
+  border: 10px rgb(173, 31, 31);
+  border-style: solid;
+}
+
+#cardWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
