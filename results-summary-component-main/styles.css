@@ -10,7 +10,7 @@
   /* Primary */
   --blue: #1e90ff;
   --white: #ffffff;
-  --lightRed: hsl(0, 100%, 67%);
+  --lightRed: rgb(255, 87, 87);
   --orangeyYellow: hsl(39, 100%, 56%);
   --greenTeal: hsl(166, 100%, 37%);
   --cobaltBlue: hsl(234, 85%, 45%);
@@ -57,13 +57,17 @@ h4 {
 .catScore {
   font-weight: 500;
   color: hwb(0 50% 50%);
+  margin-right: 0.5rem;
 }
 .catScore span {
   font-weight: bold;
   color: black;
+  margin: 0.3rem;
 }
 
 img.icon {
+  width: 20px;
+  margin: 0.5rem;
 }
 
 div#resultSection {
@@ -73,8 +77,23 @@ div#resultSection {
     rgba(46, 43, 233, 1) 0%,
     rgba(120, 87, 255, 1) 100%
   );
+  border-radius: 2rem;
+  width: 360px;
 }
 div#summarySection {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: var(--darkGrayBlue);
+  color: #ffffff;
+  border-radius: 2rem;
+  border-style: none;
 }
 
 .button:hover {
@@ -101,7 +120,9 @@ div#summarySection {
 
 #card {
   width: 600px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 10px rgb(173, 31, 31);
   border-style: solid;
 }
@@ -110,4 +131,38 @@ div#summarySection {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.box {
+  border-radius: 0.5rem;
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.innerBox {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS BOILERPLATE */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/*  */
+
+#box-reaction {
+  background-color: rgba(var(--lightRed), 0.5);
 }
