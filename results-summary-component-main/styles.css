@@ -36,11 +36,11 @@ body {
   font-family: Hanken Grotesk;
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 100vh;
+  flex-direction: column; */
+  /* height: 100vh; */
 }
 
 h1 {
@@ -186,6 +186,10 @@ div#summarySection {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  width: auto;
 }
 
 .box {
@@ -247,5 +251,13 @@ img {
   body {
     height: auto;
     display: block;
+  }
+
+  #cardWrapper {
+    height: auto;
+    display: block;
+  }
+  #card {
+    width: auto;
   }
 }
